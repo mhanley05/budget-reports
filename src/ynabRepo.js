@@ -19,8 +19,7 @@ export const AUTHORIZE_URL =
   clientId +
   "&redirect_uri=" +
   redirectUri +
-  "&response_type=token" +
-  "&scope=read-only";
+  "&response_type=token";
 
 export const getAuthorizeToken = () => {
   // check for hash route
